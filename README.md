@@ -23,18 +23,18 @@ git clone https://github.com/Aburraq/Library-Book-Management-System.git
 2. Install dependencies:
 
 
-cd quintessential-book-management
+cd Library-Book-Management-System
 Add specific installation commands if necessary (e.g., npm install, pip install, etc.)
 
 3. Set up PostgreSQL dependency with Maven:
 
 Add the following dependency in your pom.xml file:
 
-<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>42.5.1</version>
-</dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.1</version>
+        </dependency>
 
 4. Set up PostgreSQL:
 
