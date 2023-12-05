@@ -1,19 +1,19 @@
 # Library-Book-Management-System
 This project serves as a quintessential programming example enabling users to register, list, delete, update, and find books within a PostgreSQL database.
 
-**Features**
+# **Features**
 User Registration: Allows users to register accounts to manage book transactions.
 Book Listing: Provides a comprehensive list of available books.
 Book Update & Deletion: Enables editing and removal of book entries.
 Book Search Functionality: Allows users to search for books based on various criteria.
 
-**Prerequisites**
+# **Prerequisites**
 Before running this project, ensure you have the following installed:
 
 Java: Install Java Development Kit (JDK).
 PostgreSQL: Install and set up PostgreSQL database server.
 
-**Installation**
+# **Installation**
 To run this project locally, follow these steps:
 
 1. Clone the repository:
@@ -24,7 +24,7 @@ git clone https://github.com/Aburraq/Library-Book-Management-System.git
 
 
 cd quintessential-book-management
-# Add specific installation commands if necessary (e.g., npm install, pip install, etc.)
+Add specific installation commands if necessary (e.g., npm install, pip install, etc.)
 
 3. Set up PostgreSQL dependency with Maven:
 
@@ -43,9 +43,9 @@ Update the database configuration file (config.js, settings.py, etc.) with your 
 
 5.Run the application:
 
-# Add commands to start the application (e.g., mvn spring-boot:run, java -jar app.jar, etc.)
+Add commands to start the application (e.g., mvn spring-boot:run, java -jar app.jar, etc.)
 
-**Usage**
+# **Usage**
 Once the application is running, users should revise getConnection method on BookRepository class, and write thier own url, user , and password.
 Users can interact with the following functionalities:
 
@@ -54,7 +54,7 @@ Book Listing: View the complete list of available books.
 Book Modification: Update or delete book details.
 Search: Find specific books by id.
 
-**Contributing**
+# **Contributing**
 
 Contributions to this project are encouraged! If you'd like to contribute, please follow these steps:
 
